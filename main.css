@@ -1,5 +1,6 @@
 div {
     background-color: aqua;
+    margin: 100px 0px 0px 0px;
 }
 
 h1 {
@@ -24,4 +25,8 @@ body {
     justify-content: center;
     height: 100vh;
     align-content: space-around;
+}
+
+input {
+    text-align: center;
 }
