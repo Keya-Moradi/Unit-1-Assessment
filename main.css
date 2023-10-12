@@ -3,7 +3,7 @@ div {
 }
 
 h1 {
-    color: blue;
+    color: rgb(107, 107, 255);
     text-align: center;
     font-size: 50px;
     margin: 100px 0px 0px 0px;
@@ -17,7 +17,7 @@ form {
 
 body {
     margin: 0;
-    background-color: rgb(153, 59, 240);
+    background-color: rgb(121, 142, 248);
     display: flex;
     flex-direction: column;
     align-items: center;
