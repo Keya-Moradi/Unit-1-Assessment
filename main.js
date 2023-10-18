@@ -1,8 +1,8 @@
 const tempForm = document.querySelector('#tempForm');
 
 // grabbing buttons
-const increase = document.getElementById("increase");
-const decrease = document.getElementById("decrease");
+const increase = document.getElementById("+");
+const decrease = document.getElementById("-");
 
 // grabbing the number element
 const count = document.getElementById("count");
