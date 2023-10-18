@@ -42,3 +42,20 @@ function updateCount() {
         count.classList.remove('negative');
     }
 }
+
+increase.addEventListener('mouseover', () => {
+    increase.style.backgroundColor = '#fff';
+    increase.style.color = '#3498DB';
+});
+increase.addEventListener('mouseout', () => {
+    increase.style.backgroundColor = '#3498DB';
+    increase.style.color = '#fff';
+});
+decrease.addEventListener('mouseover', () => {
+    decrease.style.backgroundColor = '#fff';
+    decrease.style.color = '#3498DB';
+});
+decrease.addEventListener('mouseout', () => {
+    decrease.style.backgroundColor = '#3498DB';
+    decrease.style.color = '#fff';
+});
